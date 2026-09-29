@@ -1,0 +1,5 @@
+O, T ve S notasyonları:
+
+T, zaman için değişken tanımı 1, iki for döngüsü birer n. T(n)=2n
+O için O(n)=2n, lineer bir zaman artışı söz konusu.
+S için S(n), n=10 olacak, çünkü dizi 10 yer kaplayacak(int başı 4 byte)
