@@ -28,12 +28,12 @@ int TTG(Node* root, int x){
     
     if(x > current->data){
         int sonuc = TTG(current->next, x);
-        if(sonuc == 0) return 0;  // 0 geldiyse zinciri bozma, 0 döndür
+        if(sonuc == 0) return 0; 
         return 1 + sonuc;
     }
     else if(x < current->data){
         int sonuc = TTG(current->prev, x);
-        if(sonuc == 0) return 0;  // 0 geldiyse zinciri bozma, 0 döndür
+        if(sonuc == 0) return 0;  
         return 1 + sonuc;
     }
     else if(x == current->data)
